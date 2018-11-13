@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE showroom SYSTEM "showroom.dtd">
+<showroom>
+	<car>
+		<make>Ford</make>
+		<model>07 Mondeo</model>
+		<color>Red</color>
+		<transmission>
+			<gears>5 </gears>
+			<type>manual</type>
+		</transmission>
+		<engine>
+			<size>1.8</size> 
+			<fuel>petrol</fuel>
+		</engine>
+		<miles>98000</miles>
+		<price>€3,500</price>
+		
+	</car>
+
+	<car>
+		<make>BMW</make>
+		<model>05 320D saloon</model>
+		<color>Black</color>
+		<transmission>
+			<gears>6 </gears>
+			<type>automatic</type>
+		</transmission>
+		<engine>
+			<size>2.0</size> 
+			<fuel>diesel</fuel>
+		</engine>
+		<miles>130000</miles>
+		<price>€4,000</price>
+		
+	</car>
+</showroom>

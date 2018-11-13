@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT store (mobile)+>
+<!ELEMENT mobile (make,model,memory,os,price)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT memory (#PCDATA)>
+<!ELEMENT os (name,version)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT version (#PCDATA)>

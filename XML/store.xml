@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE store SYSTEM "store.dtd">
+<store>
+	<mobile>
+		<make>Samsung</make>
+		<model>Note 9</model>
+		<memory>128 gb</memory>
+		<os>
+			<name>Android</name>
+			<version>8.1</version>
+		</os>
+		<price>€700</price>
+	</mobile>
+	
+	<mobile>
+		<make>Mi</make>
+		<model>Note 5 pro</model>
+		<memory>64 gb</memory>
+		<os>
+			<name>MIUI</name>
+			<version>10</version>
+		</os>
+		<price>€300</price>
+	</mobile>
+</store>

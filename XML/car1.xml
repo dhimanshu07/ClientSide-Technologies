@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+	<make>Ford</make>
+	<model>07 Mondeo</model>
+	<color>Red</color>
+	<gearbox>
+		<speed>5 </speed>
+		<type>manual</type>
+	</gearbox>
+	<engine>
+		<size>1.8</size> 
+		<fuel>petrol</fuel>
+	</engine>
+	<miles>98000</miles>
+	<price>€3,500</price>
+	
+</car>

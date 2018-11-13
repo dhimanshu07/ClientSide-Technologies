@@ -1,0 +1,16 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT showroom (car)+>
+<!ELEMENT car (make,model,color,transmission,engine,miles,price)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT transmission (gears,type)>
+<!ELEMENT engine (size,fuel)>
+<!ELEMENT miles (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT gears (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT fuel (#PCDATA)>
+

@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT grocery-list (veggies,meat,dairyProducts,misc)>
+<!ATTLIST grocery-list
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT veggies (item)+>
+<!ATTLIST veggies
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT meat (item)+>
+<!ATTLIST meat
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dairyProducts (item)>
+<!ATTLIST dairyProducts
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT misc (item)+>
+<!ATTLIST misc
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+  xmlns CDATA #FIXED ''>

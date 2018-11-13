@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+	<make>BMW</make>
+	<model>05 320D saloon</model>
+	<color>Black</color>
+	<gearbox>
+		<speed>6 </speed>
+		<type>automatic</type>
+	</gearbox>
+	<engine>
+		<size>2.0</size> 
+		<fuel>diesel</fuel>
+	</engine>
+	<miles>130000</miles>
+	<price>€4,000</price>
+	
+</car>

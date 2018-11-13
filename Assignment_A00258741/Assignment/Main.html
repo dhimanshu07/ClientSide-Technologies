@@ -1,0 +1,82 @@
+<html>
+<head>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Assgn.css">
+       
+        <script src="weather.js"></script>
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="Assgn.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+
+   
+   
+
+    <div class = "B">
+
+  
+ 
+       
+    </div>
+	
+
+	</div>
+	<div class="container-fluid">
+
+        <div class="row">
+
+<div class="col-sm-6 main">
+
+        <div class = "A">
+                <h3 id = "heading";>GET CURRENT WEATHER</h3>
+            </div>
+        <div class = "C" style = "margin-bottom: 20px;">
+                <h3 class ="text-center text-primary" >ENTER CITY NAME</h3> 
+                </div>
+        
+                <div class = "D" id = "rowDiv">
+        
+                    <input type = "text" name = "city" id = "city" class = "form-control" placeholder="Enter City Name">
+                    <button id="submitWeather" class="btn" style="background-color: #21e4d9; margin:10px;">Search City</button>
+                    <span id= "error"></span>
+                </div>
+
+</div>
+
+        </div>
+        <div class="row">
+        <div id = "data"></div>
+        </div>
+
+        <div id="charts" class="row" style="display: none;">
+    <div class="col-sm-6">
+        <div class="card1">
+            <canvas id="myChart"></canvas></div>
+        </div>
+            <div class="col-sm-6">
+                <div class="card1">
+       <canvas id="myChart1"></canvas></div>
+    </div>
+    </div>
+</div>
+</div>
+	
+  
+</body>
+
+</html>

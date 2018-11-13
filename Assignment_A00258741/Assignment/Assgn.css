@@ -1,0 +1,176 @@
+#heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #337ab7;
+}
+body{
+    padding: 18px;
+    background: url("snow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.C{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#rowDiv
+{
+    text-align: center;
+}
+
+/* 
+#show{
+     font-size: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: aqua;
+     column-gap: 5px;
+} */
+
+.container {
+  width: 60%;
+  margin: 15px auto;
+}
+
+.Main
+{
+    border-bottom-color : black;
+    margin-left: 350px;
+}
+
+.weather-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weather-card {
+    
+    margin:  20px 5px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 270px;
+    background-color: #ceffff;
+    background-image: url("summer2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    animation: appear 500ms ease-out forwards;
+}   
+
+.card1{
+    border-radius: 20px;
+    background-color: #ceffff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+}
+
+.card1:hover{
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+
+.weather-card:hover{
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+    background-image: url("summer.jpg");
+}
+
+.weather-card h1 {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    bottom: 40;
+    right: 185px;
+    transform: translateX(150px);
+    animation: title-appear 500ms ease-out 500ms forwards;
+}
+
+.weather-card p {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    font-size:28px;
+    color: lighten(#B8B8B8, 10%);
+    bottom: 0;
+    left: 35px;
+    animation: title-appear 1s ease-out 500ms forwards;
+    
+}
+
+
+.weather-card .dates{
+    width: 90%;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    font-size:18px;
+    color:#000000;
+    top: 25px;
+    left: 15px;
+    animation: title-appear 1s ease-out 500ms forwards;
+}
+
+.weather-card .wind{
+    width: 90%;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    font-size:16px;
+    color:#000000;
+    top: 130px;
+    left: 15px;
+    animation: title-appear 1s ease-out 500ms forwards;
+}
+
+.weather-card .weather-icon {
+position: relative;
+width: 50px;
+height: 50px;
+top: 50;
+float: right;
+margin: 40px 40px 0 0;
+animation: weather-icon-move 5s ease-in-out infinite;
+}
+
+.weather-card :hover{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 50;
+    float: right;
+    margin: 40px 40px 0 0;
+    animation: weather-icon-move 5s ease-in-out infinite;
+    }
+
+@media (min-width: 768px){
+.col-sm-4 {
+    width: 19.33333333%;
+    padding: -10px;
+}
+}
+
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
